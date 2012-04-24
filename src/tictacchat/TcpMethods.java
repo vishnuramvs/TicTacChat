@@ -1,8 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package tictacchat;
 
 import java.io.DataOutputStream;
@@ -10,10 +5,6 @@ import java.io.IOException;
 import java.net.Socket;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author Vlad
- */
 public class TcpMethods {
     public static boolean send(String str, int port) {
         try {
